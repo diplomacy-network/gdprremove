@@ -1,0 +1,10 @@
+{
+  "delete": {
+    "prefix": "del",
+    "body": [
+      "DELETE FROM wD_${1:tableName} WHERE ${2:userID} = @uid;",
+      ""
+    ],
+    "description": "DELETE"
+  }
+}
